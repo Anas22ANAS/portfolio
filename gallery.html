@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>موقع شخصي</title>
+</head>
+<body>
+    <main>
+        <section id="header">
+            <div id="brainding" style="flex-grow:8 ">
+                <h1><a href="index.html"><i class="fa fa-user-circle"></i>صفحة <span class="highlight">اسم الطالب</span> </a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li ><a href="index.html">الرئيسية</a></li>
+                    <li class="cureent"><a href="gallery.html">معرض الاعمال</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="slider">
+            <div id="wrapper">
+                <div class="content">
+                    <img src="images/1.png">
+                </div>
+                <div class="content">
+                    <img src="images/2.png">
+                </div>
+                <div class="content">
+                    <img src="images/3.png">
+                </div>
+                <div class="content">
+                    <img src="images/4.png">
+                </div>
+            </div>
+            <div id="navLinks">
+                <ul>
+                    <li class="itemLinks" data-pos="0"></li>
+                    <li class="itemLinks" data-pos="1"></li>
+                    <li class="itemLinks" data-pos="2"></li>
+                    <li class="itemLinks" data-pos="3"></li>
+                </ul>
+            </div>
+        </section>
+        <section id="footer">
+            <p> الصفحة الشخصية لاسم المسجل &copy; <span id="currentYear"></span></p>
+        </section>
+    </main> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
